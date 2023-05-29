@@ -8,5 +8,5 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 app.use(express.static(path.join(__dirname, '/')));
 
 app.listen(3000, () => {
-    console.log('Example app listening on port 3000!');
+    console.log('App listening on port 3000!');
 });
